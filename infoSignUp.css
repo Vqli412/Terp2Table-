@@ -1,0 +1,172 @@
+.infoSignUp-body{
+  background-color: #e8ffef;
+  align-items: center;
+  font-family: Poppins;
+  width: 600px;
+  margin: auto;
+  margin-top: 100px;
+  font-weight: 600;
+}
+
+.info{
+  font-size: 30px;
+  margin-top:0;
+  
+}
+
+.infoSignUp-everything{
+  background-color: #f6fff8;
+  border-style: dashed;
+  border-color: gray;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 50px;
+}
+
+.price, .infoSignUp-name, .time, .ingre{
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 15px;
+  padding-left:20px;
+  font-size: 20px;
+  font-family: Poppins;
+  border-color: rgb(200, 200, 200);
+}
+.logo{
+  height: 100px;
+  border-radius: 40px;
+  top: 40px;
+  left: 70px;
+  position: fixed;
+
+}
+.infoSignUp-name{
+  display: block;
+  width: 415px;
+  height: 40px;
+  color: gray;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.time{
+  display: inline-block;
+}
+
+.period{
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 15px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border-width: 2px;
+  border-color: gray;
+
+}
+
+.post{
+  background-color: #adffc7;
+  border: none;
+  color: black;
+  height: 55px;
+  width: 440px;
+  display: block;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 4px 4px 4px gray;
+  transition: background-color .3s;
+  font-family: Poppins;
+  margin-bottom:10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.ingre{
+  width: 415px;
+  padding-bottom: 50px;
+
+}
+
+.post:hover{
+  opacity: 0.6;
+}
+
+.post:active{
+  margin-left: 4px;
+  margin-top: 14px;
+  box-shadow: none;
+  margin-bottom: 11px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  width: 50%;
+}
+
+.spesificPropertiesDiv{
+    display: block;
+    position: fixed; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 6000;
+    text-align: center;
+}
+
+.back-pop{
+  display: block;
+    position: fixed; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(60, 60, 60, 0.507);
+    z-index: 6000;
+    text-align: center;
+}
+
+.popup{
+  background-color: #adffc7;
+  opacity: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 100px;
+  border-radius: 20px;
+}
+
+.final-submit{
+  font-size: 30px;
+
+}
+
+.close{
+  background-color: white;
+  border: none;
+  color: black;
+  height: 55px;
+  width: 440px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 4px 4px 4px gray;
+  transition: background-color .3s;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.close:hover{
+  opacity: 0.6;
+}
+
+.close:active{
+  margin-left: 4px;
+  margin-top: 39px;
+  box-shadow: none;
+}
